@@ -1,10 +1,9 @@
 ﻿{
-	"name": "百度广告屏蔽",
-	"version": "3.0",
-	"short_name":"屏蔽百度广告Chrome扩展程序",
-	"description":"屏蔽百度线上产品页面广告。点击扩展图标，可当书签用，省去每次输入百度地址的麻烦。如有疑问欢迎咨询开发者。",
+	"name": "超级网页日志",
+	"version": "1.0",
+	"description":"使网页变得可动态化记录，并可保存到云端实现同步，打造程序员最受理解的笔记记录",
 	"background": {
-		"scripts": ["res/js/background.js"]
+		"scripts": ["res/js/start_super.js"]
 	},
 	"content_scripts": [
 		{
@@ -27,5 +26,5 @@
 		"default_icon": "res/pic/icon_128.png",
 		"default_popup": "res/popup.html"
 	},
-	"manifest_version": 2
+	"manifest_version": 3
 }
